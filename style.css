@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: Inter, sans-serif; 
+}
+
+.container {
+    max-width:550 px;
+    background-color:#1A1B21;
+}
+
+.infobox {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+
+.img {
+    width:317px;
+    height: 317px;
+    object-fit: cover;
+    
+    
+}
+
+.name {
+    color:white;
+    font-size: 1.9rem;
+    margin:18px 0 0 0;
+}
+
+.role {
+    color:#F3BF99;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin:0;
+    padding-block:7px;  
+}
+
+.web {
+    color:#F5F5F5;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.btnlist {
+    display: flex;
+    justify-content: center;
+}
+
+.emailbox {
+    margin:20px;
+    background-color: #D1D5DB;
+    width:115px;
+    height: 34px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    border:none;
+    border-radius: 5px;
+    padding-block:7px;
+}
+
+.inbox {
+    margin:20px;
+    background-color: #5093E2;
+    color: #FFFF;
+    width:115px;
+    height: 34px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    border:none;
+    border-radius: 5px;
+    padding-block:7px;
+}
+
+.icon-email, .icon-in {
+    width:20%;
+    
+}
+
+.aboutbox, .interestbox {
+    color:#DCDCDC;
+    margin: 0 50px;
+}
+
+.about, .interest {
+    font-size: 1rem;    
+}
+
+.aboutp, .interestp {
+    font-size: 0.7rem;
+    overflow-wrap: break-word;
+    line-height: 19px;
+}
+
+
+.iconlist {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.iconlist > img {
+    margin: 0;
+    width:30px;
+    height: 30px;
+    margin:0 10px;
+    background-color: #918E9B;
+    
+    
+}
